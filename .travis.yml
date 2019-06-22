@@ -9,7 +9,7 @@ services:
   - docker
 
 before_install:
-  - docker build -t griffinplus/zimbra .
+  - docker build -t zimbra-server .
 
 install:
   - pip3 install -r tests/requirements.txt

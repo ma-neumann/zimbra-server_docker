@@ -1,5 +1,5 @@
-version: '2'
+version: '1'
 
 services:
   zimbra:
-    image: griffinplus/zimbra
+    image: zimbra-server
